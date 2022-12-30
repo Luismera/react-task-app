@@ -29,7 +29,6 @@ const FormTodo = ({ show, handleClose, handleOnSubmit, defaultValues }) => {
    }
 
    useEffect(() => {
-      console.log('defaultValues', defaultValues)
       if (defaultValues !== undefined) {
          reset({
             description: defaultValues.description,
